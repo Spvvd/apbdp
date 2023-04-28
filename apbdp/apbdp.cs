@@ -7,7 +7,7 @@ namespace apbdp
         Utils Utils = new Utils();
 
         private static string gameProcess = "apb.exe"; 
-        private static string[] gameProcesses = { gameProcess, "apb_be.exe", "apb_catcher.exe" };
+        private static string[] gameProcesses = { gameProcess, "easyanticheat_eos.exe", "apb_catcher.exe" };
 
 #if RELEASE
         private static string binariesPath = $"Binaries";
